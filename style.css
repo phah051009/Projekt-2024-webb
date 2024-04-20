@@ -1,0 +1,161 @@
+/*Återställer margin och sätter arial som font*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/*Styling för min navbar*/
+.navbar {
+    background-color: #4a90e2;
+    overflow: hidden; /*Döljer innehåll som kan gå utanför min navbar*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px 20px; /*Själva inre utrymmer för navbaren*/
+}
+
+
+/*Styling för min regnbåge logga*/
+.logo {
+    display: flex;
+    align-items: center; 
+}
+
+/*Styling för bilden i loggan*/
+.logo img {
+    height: 50px;
+    margin-right: 10px; /*Avstånd till höger om bilden*/
+}
+
+/*Styling för texten i loggan*/
+.logo-text {
+    color: white;
+    font-size: 20px; 
+}
+
+/*Styling för min meny*/
+.menu {
+    display: flex;
+    align-items: center; 
+}
+
+/*Styling för min meny*/
+.menu-items {
+    list-style-type: none; /*Tar bort punkterna*/
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu-items li {
+    margin-right: 20px; /*Avstånder till höger för elementen*/
+}
+
+/*Styling för sista menyelementet*/
+.menu-items li:last-child {
+    margin-right: 0;
+}
+
+/*Styling för länkarna i menyn*/
+.menu-items li a {
+    text-decoration: none; /*Tar bort understrecket i länken*/
+    color: white;
+    font-size: 16px;  
+}
+
+/*Styling för ikonen*/
+.icons {
+    display: flex;
+    align-items: center; 
+}
+
+/*Styling för länkarna i ikonen och menyn*/
+.icons a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Styling för min meny på telefon läge*/
+.icons a img {
+    height: 30px;
+}
+
+/*Styling för meny telefon*/
+.menu-toggle {
+    display: none; /*Gömmer den från början*/
+    cursor: pointer; 
+}
+
+.menu-toggle img {
+    height: 30px;
+}
+
+/*När skärmen är mindre än 768px så göms menyn och meny knappen visas*/
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    /*Visar meny knappen*/
+    .menu-toggle {
+        display: flex;
+        align-items: center;
+    }
+
+    /*Styling för meny knappen*/
+    .menu-toggle img {
+        height: 30px;
+    }
+
+    /*Visa hubudmenyn när knappen är aktiv*/
+    .menu.show {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #4a90e2;
+        padding: 10px;
+        border-radius: 5px;
+        
+    }
+
+    .menu.show .menu-items {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu.show .menu-items li {
+        margin: 10px 0;
+    }
+}
+
+/*Mina Boxar*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.box {
+    width: 220px;
+    text-align: center;
+    border: 2px solid black; /* Tjockare svart ram */
+
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+
+.box img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+

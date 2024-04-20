@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    justify-content: space-between; /* Placera elementen längs hela bredden */
+    align-items: center;
+    height: 100vh;
+}
+
+.left-panel {
+    width: 45%; /* Justera bredden för vänsterpanelen */
+}
+
+.right-panel {
+    width: 45%; /* Justera bredden för högerpanelen */
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.food-image {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+    animation: spin 2s linear infinite; /* Lägg till animation på matbilderna */
+}
+
+.horse-image {
+    width: 30vh;
+    height: 30vh;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+
+html, body {
+    height: 100%; /* Sätt höjden till 100% av förälderselementets höjd */
+}
+
+body {
+    margin: 0; /* Ta bort marginaler för att fylla hela sidan */
+    padding: 0; /* Ta bort fyllnad för att fylla hela sidan */
+    background-image: url('./Bilder/bakgrund.jpg'); /* Lägg till bakgrundsbilden här */
+    background-size: cover; /* Anpassa bakgrundsbilden för att täcka hela fönstret */
+    background-position: center; /* Centrera bakgrundsbilden */
+    background-repeat: no-repeat; /* Förhindra att bakgrundsbilden upprepas */
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.popup button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.apple-image {
+    animation: moveImageApple 1s linear infinite; /* Ändra tiden till 1 sekund för att snabba upp animationen */
+}
+
+@keyframes moveImageApple {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(100px, 100px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}

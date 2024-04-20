@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="./djur.css">
+    <title>Mata djur</title>
+    <style>
+        /* Styla popup */
+        #popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="../../index.html">
+                <img src="../../Meny/Regnbåge.png" alt="Logo">
+            </a>
+            <span class="logo-text">Barnspel</span>
+
+        </div>
+        <div class="menu">
+            <ul class="menu-items">
+                <li><a href="/Spel/Pussel/pussel.html">Pussel</a></li>
+                <li><a href="/Spel/Matte/matte.html">Matte</a></li>
+                <li><a href="/Spel/Memory/memory.html">Memory</a></li>
+                <li><a href="/Spel/Tärningar/tärning.html">Gissa numret</a></li>
+                <li><a href="/Om oss/omoss.html">Om oss</a></li>
+                <li><a href="/inställningar/Inställningar.html">Inställningar</a></li>
+            </ul>
+        </div>
+
+        <div class="menu-toggle" id="menu-toggle">
+            <img src="../../Meny/Menu.png" alt="Menu">
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="left-panel">
+            <div class="images">
+                <img src="./Bilder/Mat/Äppel.jpg" alt="Hundben" class="food-image" data-correct="true">
+                <img src="./Bilder/Mat/Fel.png" alt="Fel" class="food-image" data-correct="false">
+                
+                <!-- Lägg till fler bilder här -->
+            </div>
+        </div>
+
+        <div class="right-panel">
+            <img src="./Bilder/djur/Häst.gif" alt="Häst" class="horse-image">
+            <div class="button-container">
+                <button id="prev-button">←</button>
+                <button id="next-button">→</button>
+            </div>
+            <p id="timer-display"></p>
+        </div>
+    </div>
+
+
+    <div id="start-popup" class="popup">
+        <button id="start-button">Starta</button>
+    </div>
+
+    <script src="./djur.js"></script>
+</body>
+
+</html>

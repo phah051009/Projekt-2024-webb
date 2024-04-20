@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 2px; /* Lägg till en padding-top istället för margin-top */
+    
+
+}
+
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin-top: 5px; /* Lägg till en margin-top för att flytta spelbrädet uppåt */
+
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: purple;
+}
+
+html, body {
+    height: 100%; /* Sätt höjden till 100% av förälderselementets höjd */
+}
+
+
+/* Uppdatera den ursprungliga CSS-stilen för body för att inkludera animationen */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./Bilder/bakgrund.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

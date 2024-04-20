@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inställningar</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../Inställningar/Inställningar.css">
+
+    <script src="../Main.js"></script> 
+    <script src="../Inställningar/Inställningar.js"></script> 
+
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../Meny/Regnbåge.png" alt="Logo">
+            </a>
+            <span class="logo-text">Barnspel</span>
+
+        </div>
+        <div class="menu">
+            <ul class="menu-items">
+                <li><a href="../Spel/Pussel/pussel.html">Pussel</a></li>
+                <li><a href="../spel/Matte/matte.html">Matte</a></li>
+                <li><a href="../Spel/Memory/memory.html">Memory</a></li>
+                <li><a href="../Spel/Tärningar/tärning.html">Gissa numret</a></li>
+                <li><a href="../Om oss/omoss.html">Om oss</a></li>
+                <li><a href="../Inställningar/Inställningar.html">Inställningar</a></li>
+            </ul>
+        </div>
+
+        <div class="menu-toggle" id="menu-toggle">
+            <img src="Meny/Menu.png" alt="Menu">
+        </div>
+    </nav>
+
+
+    <h1>Inställningar</h1>
+
+    <button type="button" id="darkandlightmodesv" class="button" onclick="Toggle()">Darkmode</button>
+
+    <div onclick="Getinfoboxbackgroundcolor()">
+        <button type="button" class="button" onclick="Logout1()">Ändra bakgrundsfärg</button>
+    </div>
+
+    <div id="informationcolor">
+        <h3>Här kan du välja vilken färg du vill ha som bakgrund:</h3>
+        <button id="pinkbutton" onclick="buttonpink()">Rosa</button>
+        <button id="purplebutton" onclick="buttonpurple()">Lila</button>
+        <button id="greenbutton" onclick="buttongreen()">Grön</button>
+        <button id="yellowbutton" onclick="buttonyellow()">Gul</button>
+        <button id="greybutton" onclick="buttongrey()">Grå</button>
+        <button id="orangebutton" onclick="buttonorange()">Orange</button>
+        <button id="redbutton" onclick="buttonred()">Röd</button>
+        <button id="whitebutton" onclick="buttonwhite()">Vit</button>
+        <br>
+        <br>
+        <button id="closebutton" onclick="closebutton1()">Stäng</button>
+    </div>
+
+    <div onclick="Getinfoboxchangetext()">
+        <button type="button" class="button" onclick="Logout3()">Ändra typsnitt</button>
+    </div>
+
+    <div id="informationchangetext">
+        <h3>Här kan du välja vilket typsnitt du vill ha på texten:</h3>
+
+        <button id="verdanabutton" onclick="buttonverdanatext()">Verdana</button>
+        <button id="georgiabutton" onclick="buttongeorgiatext()">Georgia</button>
+        <br>
+        <br>
+        <button id="closebutton" onclick="closebutton3()">Stäng</button>
+    </div>
+
+    <div onclick="Getinfoboxtextcolor()">
+        <button type="button" class="button" onclick="Logout2()">Ändra textfärg</button>
+    </div>
+
+    <div id="informationcolortext">
+        <h3>Här kan du välja vilken textfärg du vill ha:</h3>
+        <button id="pinkbutton" onclick="buttonpinktext()">Rosa text</button>
+        <button id="purplebutton" onclick="buttonpurpletext()">Lila text</button>
+        <button id="greenbutton" onclick="buttongreentext()">Grön text</button>
+        <button id="yellowbutton" onclick="buttonyellowtext()">Gul text</button>
+        <button id="greybutton" onclick="buttongreytext()">Grå text</button>
+        <button id="orangebutton" onclick="buttonorangetext()">Orange text</button>
+        <button id="redbutton" onclick="buttonredtext()">Röd text</button>
+        <br>
+        <br>
+        <button id="closebutton" onclick="closebutton2()">Stäng</button>
+    </div>
+
+  
+
+</body>
+
+</html>

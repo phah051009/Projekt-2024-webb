@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-top: 10px;
+}
+
+.option {
+    width: 150px;
+    height: 75px;
+    background-color: #FFB6C1; /* Ljusrosa färg */
+    border: 1px solid #FF69B4; /* Ljusare färg på kanten */
+    display: inline-flex; /* Använd inline-flex för att lägga dem bredvid varandra */
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smidig övergång för färgändringar */
+}
+
+.option:hover {
+    background-color: purple; /* Ljusare rosa färg vid hovring */
+}
+
+.question-image {
+    width: 150px; /* Önskad bredd */
+    height: 150px; /* Önskad höjd */
+}
+
+/* Mediaförfrågan för att ändra stilen på mobila enheter */
+@media screen and (max-width: 600px) {
+    .option {
+        width: 80%; /* Anpassa bredden till skärmbredden */
+        max-width: 200px; /* Sätt en maxbredd för att undvika för breda alternativ */
+        margin: 10px auto; /* Centrera alternativen horisontellt */
+    }
+}
+ 
+
+html, body {
+    height: 100%; /* Sätt höjden till 100% av förälderselementets höjd */
+}
+ 
+
+/* Uppdatera den ursprungliga CSS-stilen för body för att inkludera animationen */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

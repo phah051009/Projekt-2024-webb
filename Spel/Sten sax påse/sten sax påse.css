@@ -1,0 +1,50 @@
+#gameplane{
+    text-align: center;
+}
+
+#gameplane img{
+    height: 20vh;
+    width: 20vh;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+body {
+    background-color: #ADD8E6; /* Ljusblå bakgrundsfärg */
+}
+
+#selectedPicture{
+    border: 3px solid ;
+    border-color: black;
+}
+
+#result{
+    justify-content: center;
+    text-align: center;
+}
+
+#computerChoice img{
+    justify-content: center;
+    text-align: center;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 10px;
+}
+
+#resultBox{
+    justify-content: center;
+    text-align: center;
+}
+
+choice {
+    cursor: pointer;
+    border: 3px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+}
+.choice:hover {
+    border-color: black;
+}
+
+.choice:active {
+    border: 3px solid black;
+}

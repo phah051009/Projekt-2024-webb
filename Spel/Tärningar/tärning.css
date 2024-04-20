@@ -1,0 +1,56 @@
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #FF4081;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #FF4081;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #FF4081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #F50057;
+}
+
+/* Resultatmeddelande */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FF4081;
+}
+
+html, body {
+    height: 100%; /* Sätt höjden till 100% av förälderselementets höjd */
+}
+
+
+/* Uppdatera den ursprungliga CSS-stilen för body för att inkludera animationen */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./Bilder/bakgrund.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

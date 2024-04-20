@@ -1,0 +1,183 @@
+.lightmode {
+    background-color: rgba(255, 255, 255);
+    color: black;
+  }
+.darkmode {
+    background-color: #121212;
+    color: #ffffffa9;
+}
+
+
+#pinkbutton{
+    background-color: pink;
+}
+#purplebutton{
+    background-color: purple;
+}
+#greenbutton{
+    background-color: green;
+}
+#yellowbutton{
+    background-color: yellow;
+}
+#greybutton{
+    background-color: grey;
+}
+#orangebutton{
+    background-color: orange;
+}
+#redbutton{
+    background-color: red;
+}
+#whitebutton{
+    background-color: white;
+}
+#blackbutton{
+    background-color: #121212;
+}
+
+/*När vi väljer att klicka på ändra backgrundsfärg till rosa så hämtar javascript denna css kod och ändrar bakgrunden till rosa.*/
+.backgroundpink {
+    background-color: pink;
+}
+  /*När vi väljer att klicka på ändra backgrundsfärg till lila så hämtar javascript denna css kod och ändrar bakgrunden till lila.*/
+.backgroundpurple{
+    background-color: purple;
+}
+  /*När vi väljer att klicka på ändra backgrundsfärg till grön så hämtar javascript denna css kod och ändrar bakgrunden till grön.*/
+.backgroundgreen{
+    background-color: green;
+}
+  /*När vi väljer att klicka på ändra backgrundsfärg till gul så hämtar javascript denna css kod och ändrar bakgrunden till gul.*/
+.backgroundyellow{
+    background-color: yellow;
+}
+  /*När vi väljer att klicka på ändra backgrundsfärg till grå så hämtar javascript denna css kod och ändrar bakgrunden till grå.*/
+.backgroundgrey{
+    background-color: grey;
+}
+  /*När vi väljer att klicka på ändra backgrundsfärg till orangee så hämtar javascript denna css kod och ändrar bakgrunden till orangee.*/
+.backgroundorange{
+    background-color: orange;
+}
+  /*När vi väljer att klicka på ändra backgrundsfärg till röd så hämtar javascript denna css kod och ändrar bakgrunden till röd.*/
+.backgroundred{
+    background-color: red;
+}
+  /*När vi väljer att klicka på ändra textfärg till röd så hämtar javascript denna css kod och ändrar all text till röd.*/
+  .backgroundredtext{
+    color:red
+}
+  /*När vi väljer att klicka på ändra textfärg till orangee så hämtar javascript denna css kod och ändrar all text till orangee.*/
+.backgroundorangetext{
+    color: orange;
+}
+  /*När vi väljer att klicka på ändra textfärg till grå så hämtar javascript denna css kod och ändrar all text till grå.*/
+.backgroundgreytext{
+    color:grey
+}
+  /*När vi väljer att klicka på ändra textfärg till gul så hämtar javascript denna css kod och ändrar all text till gul.*/
+.backgroundyellowtext{
+    color: yellow;
+}
+  /*När vi väljer att klicka på ändra textfärg till grön så hämtar javascript denna css kod och ändrar all text till grön.*/
+.backgroundgreentext{
+    color: green;
+}
+  /*När vi väljer att klicka på ändra textfärg till lila så hämtar javascript denna css kod och ändrar all text till lila.*/
+  
+.backgroundpurpletext{
+    color: purple;
+}
+  /*När vi väljer att klicka på ändra textfärg till rosa så hämtar javascript denna css kod och ändrar all text till rosa.*/
+.backgroundpinktext{
+    color: pink;
+}
+/*Här har vi css koden för att arial som typsnitt ska fungera*/
+.backgroundarialtext{
+    font-family: Arial, Helvetica, sans-serif;
+}
+  /*Typsnittet som knappen får för att visa hur det ser ut*/
+#arialbutton{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 10vw;
+    height: 5vh;
+    font-size: 1.5vw;
+    text-align: center;
+}
+  /*Här har vi css koden för att verdana som typsnitt ska fungera*/
+.backgroundverdanatext{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  /*Typsnittet som knappen får för att visa hur det ser ut*/
+#verdanabutton{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 10vw;
+    height: 5vh;
+    font-size: 1.5vw;
+    text-align: center;
+}
+  /*Här har vi css koden för att georgia som typsnitt ska fungera*/
+.backgroundgeorgiatext{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+  /*Typsnittet som knappen får för att visa hur det ser ut*/
+#georgiabutton{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 10vw;
+    height: 5vh;
+    font-size: 1.5vw;
+    text-align: center; 
+}
+#informationchangetext{
+    display:none;
+    position:fixed;
+    top:18%;
+    left: 25%; 
+    width: 50%;
+    height: 70%;
+    background-color: rgb(181, 187, 187);
+    text-align: center;
+    box-shadow: 1px 2px 2px rgb(126, 125, 125), 0 0 25px rgb(126, 125, 125), 0 0 5px rgb(126, 125, 125);
+}
+#informationcolortext{
+    display:none;
+    position:fixed;
+    top:18%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(181, 187, 187);
+    text-align: center;
+    box-shadow: 1px 2px 2px rgb(126, 125, 125), 0 0 25px rgb(126, 125, 125), 0 0 5px rgb(126, 125, 125);
+}
+#informationcolor{
+    display:none;
+    position:fixed;
+    top:18%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(181, 187, 187);
+    text-align: center;
+    box-shadow: 1px 2px 2px rgb(126, 125, 125), 0 0 25px rgb(126, 125, 125), 0 0 5px rgb(126, 125, 125);
+}
+
+
+.button {
+    background-color: #1e56a0; /*färgen som är på knappen*/
+    color: white; /* Färgen på texten */
+    padding: 15px 32px; 
+    text-align: center; /* Centrerar texten skicka meddelande*/
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    width: 100%;
+  }
+  .button:hover, /* Att skicka meddelande knappen blir mörk när vi håller musen över den. */
+  .button:focus {
+    background-color: #163172;
+  }
