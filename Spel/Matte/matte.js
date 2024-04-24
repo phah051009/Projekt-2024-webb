@@ -75,7 +75,8 @@ function UpdateraFråga() {
 }
 
 
-// Funktion för att hantera klick på svarsalternativ
+
+
  
 // Funktion för att hantera klick på svarsalternativ
 var frostMusic = document.getElementById('frostMusik');
