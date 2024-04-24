@@ -71,7 +71,7 @@ function UpdateraFråga() {
     // Uppdatera HTML-innehållet för frågebilden med den nya bilden
 
     //alert(imagePath);
-    questionImage.innerHTML = '<img src="./Bilder/' + 'bild' + imagePath + '.jpg" alt="Frågebild" class="question-image">';
+    questionImage.innerHTML = '<img src="../../Spel/Matte/Bilder/' + 'bild' + imagePath + '.jpg" alt="Frågebild" class="question-image">';
 }
 
 
