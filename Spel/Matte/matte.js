@@ -69,7 +69,9 @@ function UpdateraFråga() {
     // Uppdatera frågebilden genom att slumpa en ny bild
     var imagePath = skapaNummer(1, 26);
     // Uppdatera HTML-innehållet för frågebilden med den nya bilden
-    questionImage.innerHTML = '<img src="../../Spel/Matte/bilder/bild' + imagePath + '.jpg" alt="Frågebild" class="question-image">';
+
+    //alert(imagePath);
+    questionImage.innerHTML = '<img src="./Bilder/' + 'bild' + imagePath + '.jpg" alt="Frågebild" class="question-image">';
 }
 
 
