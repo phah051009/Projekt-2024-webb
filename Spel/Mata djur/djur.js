@@ -3,9 +3,9 @@ document.addEventListener("DOMContentLoaded", function() {
     var animalType = "Häst";
 
     var animals = [
-        { name: "Hund", image: './Bilder/djur/Hund.gif', foodImage: './Bilder/Mat/Hundben.png', sound: './Musik/RättMatHäst.mp3' },
-        { name: "Häst", image: './Bilder/djur/Häst.gif', foodImage: './Bilder/Mat/Äpple.jpg', sound: './Musik/RättMatHäst.mp3' },
-        { name: "Enhörning", image: './Bilder/djur/Enhörning.gif', foodImage: './Bilder/Mat/Morot.jpg', sound: './Musik/RättMatHäst.mp3' }
+        { name: "Hund", image: '../../Spel/Mata djur/Bilder/Djur/Hund.gif', foodImage: '../../Mata djur/Bilder/Mat/Hundben.png', sound: './Musik/RättMatHäst.mp3' },
+        { name: "Häst", image: '../../Spel/Mata djur/Bilder/Djur/Häst.gif', foodImage: '../../Mata djur/Bilder/Mat/Äpple.jpg', sound: './Musik/RättMatHäst.mp3' },
+        { name: "Enhörning", image: '../../Spel/Mata djur/Bilder/Djur/Enhörning.gif', foodImage: '../../Mata djur/Bilder/Mat/Morot.jpg', sound: './Musik/RättMatHäst.mp3' }
     ];
 
     var currentIndex = 1;
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var popup = document.getElementById('popup');
     var timerDisplay = document.getElementById('timer-display');
 
-    var timer = 30; // Time in seconds
+    var timer = 30; 
     var timerInterval;
 
     function startTimer() {
@@ -106,12 +106,12 @@ var foodImages = document.querySelectorAll('.food-image');
 
 function toggleFoodImages() {
     foodImages.forEach(function(image) {
-        setInterval(function() { /* Använd setInterval istället för setTimeout för att ändra positionen kontinuerligt */
+        setInterval(function() { 
             var newX = Math.random() * (window.innerWidth - image.width);
             var newY = Math.random() * (window.innerHeight - image.height);
             image.style.left = newX + 'px';
             image.style.top = newY + 'px';
-        }, 1000); // Ändra till 1000 millisekunder för att matcha animationshastigheten
+        }, 1000); 
     });
 }
 
