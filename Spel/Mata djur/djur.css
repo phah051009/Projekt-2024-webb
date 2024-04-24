@@ -48,7 +48,7 @@ html, body {
 body {
     margin: 0; /* Ta bort marginaler för att fylla hela sidan */
     padding: 0; /* Ta bort fyllnad för att fylla hela sidan */
-    background-image: url('../../Spel/Mata djur/Bilder/Bakgrund.jpg'); /* Lägg till bakgrundsbilden här */
+    background-image: url('./Bilder/Bakgrund.jpg'); /* Lägg till bakgrundsbilden här */
     background-size: cover; /* Anpassa bakgrundsbilden för att täcka hela fönstret */
     background-position: center; /* Centrera bakgrundsbilden */
     background-repeat: no-repeat; /* Förhindra att bakgrundsbilden upprepas */
