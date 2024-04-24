@@ -48,7 +48,7 @@ html, body {
 /* Uppdatera den ursprungliga CSS-stilen för body för att inkludera animationen */
 body {
     margin: 0;
-    padding: 0;
+    padding: 0;   
     background-image: url('../../Spel/Tärningar/Bilder/Bakgrund.jpg');
     background-size: cover;
     background-position: center;
